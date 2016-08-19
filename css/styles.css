@@ -7,7 +7,6 @@ h1 {
   color: #005bc3;
 }
 
-/*==Parallax=Images==*/
 .parallaxImage {
   background-image: url("img1.jpg");
   min-height: 400px;

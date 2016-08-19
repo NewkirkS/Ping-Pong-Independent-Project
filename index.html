@@ -14,16 +14,32 @@
       <div class="parallaxImage"><h1>Ping-Pong</h1></div>
     </div>
     <div class="container">
-      <form>
-        <div class="form-group">
-          <label for="input">Enter a number:</label>
-          <input type="number" id="numberInput">
-          <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+      <div class="row">
+        <div class="col-sm-5">
+          <h3>Let's Play!</h3>
+          <h4>Rules:</h4>
+          <p>
+            Ping Pong will count up to your number from 1 with the following exceptions:
+          </p>
+          <ol>
+            <li>Numbers divisible by 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 15 become "ping-pong"</li>
+          </ol>
         </div>
-        <div id="outputDiv">
-          <ul id="outputUl"></ul>
+        <div class="col-sm-5">
+          <form>
+            <div class="form-group">
+              <label for="input">Enter a number:</label>
+              <input type="number" id="numberInput">
+              <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+            </div>
+          </form>
         </div>
-      </form>
+      </div>
+      <div id="outputDiv">
+        <ul id="outputUl"></ul>
+      </div>
     </div>
   </body>
 </html>
