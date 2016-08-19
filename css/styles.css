@@ -7,14 +7,14 @@ h1 {
   color: #005bc3;
 }
 
-.parallaxImage {
-  background-image: url("img1.jpg");
-  min-height: 400px;
-  background-attachment:fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: grey;
+h3 {
+  text-align: center;
+  background-color: #ef9444;
+  border-radius: 5px;
+}
+
+form {
+  margin-top: 10px;
 }
 
 ul {
@@ -25,7 +25,28 @@ ul {
   list-style: circle inside;
 }
 
-li {
+.resultLi {
+  font-size: 20px;
+  font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.column {
+  margin-bottom: 20px;
+}
+
+.row {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.parallaxImage {
+  background-image: url("img1.jpg");
+  min-height: 400px;
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: grey;
 }
