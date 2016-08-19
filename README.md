@@ -46,4 +46,4 @@ _HTML, CSS, Bootstrap, JavaScript, jQuery.
 
 *This program is licensed under the MIT license.*
 
-Copyright (c) 2016 **_Stephen_**
+Copyright (c) 2016 **_Stephen Newkirk_**
