@@ -17,15 +17,16 @@ form {
   margin-top: 10px;
 }
 
-ul {
-  background-color: #005bc3;
-  border-radius: 5px;
+.resultLi {
   color: white;
-  text-align: center;
-  list-style: circle inside;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.resultLi {
+.resultLiOrange {
+  color: #ef9444;
   font-size: 20px;
   font-weight: bold;
   margin-top: 10px;
@@ -49,4 +50,19 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: grey;
+}
+
+#outputDiv {
+  background-color: #005bc3;
+  border-radius: 5px;
+  text-align: center;
+  list-style: circle inside;
+}
+
+@media only screen and (max-width: 580px) {
+
+  h1 {
+    font-size:40px;
+  }
+
 }

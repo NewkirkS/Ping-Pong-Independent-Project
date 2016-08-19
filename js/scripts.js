@@ -23,8 +23,13 @@ $(document).ready(function() {
     var userInput = parseInt($("input#numberInput").val());
     pingPong(userInput);
     numbers.forEach(function() {
-      $("#outputUl").append("<li class='resultLi'>" + numbers[indexCounter] + "</li>");
-      indexCounter++;
+      if ((indexCounter + 1) % 3 === 0 || (indexCounter + 1) % 5 === 0 || (indexCounter + 1) % 15 === 0) {
+        $("#outputUl").append("<li class='resultLiOrange'>" + numbers[indexCounter] + "</li>");
+        indexCounter++;
+      } else {
+        $("#outputUl").append("<li class='resultLi'>" + numbers[indexCounter] + "</li>");
+        indexCounter++;
+      }
     });
     numbers.length = 0;
     indexCounter = 0;

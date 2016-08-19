@@ -26,6 +26,10 @@ _Numbers divisible by 15 are replaced with "ping-pong"_
 *_Example Input: 15_
 *_Example Output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong_
 
+_Ping, pong and ping-pong text is orange_
+*_Example Input: 3_
+*_Example Output: 1, 2, *Orange 3*_
+
 ## Setup/Installation Requirements
 
 None. Download or clone from Github and open in browser.
