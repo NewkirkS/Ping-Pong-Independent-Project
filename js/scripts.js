@@ -3,7 +3,11 @@ var numbers = [];
 var indexCounter = 0;
 var pingPong = function(number) {
   for(i=1; i <= number; i++) {
-    numbers.push(i);
+    if (i % 3 === 0) {
+      numbers.push("ping");
+    } else {
+      numbers.push(i);
+    }
   }
 }
 
@@ -15,12 +19,9 @@ $(document).ready(function() {
     var userInput = parseInt($("input#numberInput").val());
     pingPong(userInput);
     numbers.forEach(function() {
-      debugger;
       $("#outputUl").append("<li>" + numbers[indexCounter] + "</li>");
       indexCounter++;
     });
-    //Potential but inelegent fix to multiple submission problem
-    // $(".btn-success").hide();
     numbers.length = 0;
     indexCounter = 0;
   });
