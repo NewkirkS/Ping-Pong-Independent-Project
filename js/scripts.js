@@ -11,6 +11,7 @@ var pingPong = function(number) {
 $(document).ready(function() {
   $("form").submit(function(event){
     event.preventDefault();
+    $("#outputUl").empty();
     var userInput = parseInt($("input#numberInput").val());
     pingPong(userInput);
     numbers.forEach(function() {
