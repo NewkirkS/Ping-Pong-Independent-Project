@@ -32,7 +32,7 @@ _Ping, pong and ping-pong text is orange_
 
 ## Setup/Installation Requirements
 
-None. Download or clone from Github and open in browser.
+Download or clone from Github and open in browser, or go to https://newkirks.github.io/Ping-Pong-Independent-Project/
 
 ## Known Bugs
 
