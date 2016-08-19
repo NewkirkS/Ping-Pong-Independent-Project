@@ -14,9 +14,13 @@ $(document).ready(function() {
     var userInput = parseInt($("input#numberInput").val());
     pingPong(userInput);
     numbers.forEach(function() {
+      debugger;
       $("#outputUl").append("<li>" + numbers[indexCounter] + "</li>");
       indexCounter++;
     });
+    //Potential but inelegent fix to multiple submission problem
+    // $(".btn-success").hide();
     numbers.length = 0;
+    indexCounter = 0;
   });
 });
